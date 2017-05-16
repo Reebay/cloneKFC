@@ -45,6 +45,9 @@ app.get('/owners', function(req, res) {
 app.get('/menu', function(req, res) {
   res.render('pages/menu');
 });
+app.get('/promo', function(req, res) {
+  res.render('pages/promo');
+});
 
 // ЗАПУСК СЕРВЕРА
 // ==================================================

@@ -522,9 +522,9 @@ ul li label {
     background: linear-gradient(#dd4161 50%, #a71932 50%);
     text-decoration: none;
 }
-.block-link a {
+.col-md-4 .add-btn-other {
     display: block;
-    margin: 20px 0;
+    margin: 25px 0;
 }
 .add-btn:hover {
     color: white;
@@ -714,7 +714,7 @@ span, .title-color {
     color: black;
 }
 .main-content {
-    width: 985px;
+  width: 985px;
   margin: 0 auto;
 }
 
@@ -816,4 +816,7 @@ span, .title-color {
 
 .box-right {
     margin-left: 25px;
+}
+.for-mobile {
+    display: none;
 }
